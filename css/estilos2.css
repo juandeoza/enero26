@@ -1,0 +1,150 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  body {
+   max-width: 810px; 
+    margin: 0px auto;
+    background-image: url(/imgs/old_map.png);
+  }
+  
+  main {
+    background-color: lightgray;
+    min-height: 65vh;
+  }
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #4a545e;
+    color: #e9e9e9;
+    padding-left: 20px;
+    height: 80px;
+  }
+  
+  header div {
+    height: 70px;
+    width: 65px;
+    background-image: url(/imgs/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #4a545e;
+    background-position: center;
+  }
+  
+  header h1 {
+    padding-left: 30px;
+    font-size: 1.8em;
+  }
+  nav ul {
+    height: 15vh;
+    display: flex;
+    background-image: url(/imgs/red015.jpg);
+    color: #a4b5c2;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-top: 5px solid black;
+  }
+
+  #menu-contenidos {
+    cursor:default;
+  }
+  
+  nav ul li {
+    flex: 1 1 32%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: gold;
+  }
+  
+  .img-menu {
+    width: 50px;
+    height: 50px;
+  }
+  #contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+  }
+  
+#contenido div {
+
+  flex-grow: 0;
+}
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 1.4em;
+    background-color:  #eee;
+    min-height: 58vh;
+  }
+  
+  .foto {
+    height: 160px;
+    width: 210px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:  #e9e9e9;
+    background-position: center;
+  }
+  
+  .foto1 {
+    background-image: url(/imgs/html5.png);
+  }
+  
+  .foto2 {
+    background-image: url(/imgs/CSS3.png);
+  }
+  
+  .foto3 {
+    background-image: url(/imgs/javascript.png);
+  }
+  article h2 {
+    padding: 1em 0;
+  }
+  
+  article p {
+    width: 195px;
+  }
+  article header {
+    background-color: white;
+    min-height: 63vh;
+  }
+  
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      border-top: 5px solid black;
+      background-color: #4a545e;
+      text-align: center;
+      color: #e9e9e9;
+      font-size: 0.6em;
+      height: 5vh;
+      padding-bottom: 0.7em;
+    }
+    
+    footer p a {
+      color: #e9e9e9;
+    }
